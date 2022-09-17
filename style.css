@@ -251,13 +251,7 @@ button.calculator-btn:disabled {
     padding-right: 5px;
 }
 
-@media screen and (max-width: 767px) {
-    .calculator-activity__item label {
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 767px) and (orientation: landscape) {
+@media screen and (max-width: 991px) {
     .calculator-activity__item label {
         height: auto;
     }
