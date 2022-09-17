@@ -257,6 +257,12 @@ button.calculator-btn:disabled {
     }
 }
 
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .calculator-activity__item label {
+        height: auto;
+    }
+}
+
 .calculator-activity__item label img {
     margin-right: 13px;
 }
